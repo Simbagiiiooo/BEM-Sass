@@ -1,0 +1,9 @@
+$primary-color: #c0eea9;
+$secondary-color: rgba(0, 0, 0, 0.75);
+$padding-pixels: 20px;
+
+@mixin stylingText {
+  max-width: 700px;
+  text-align: center;
+  padding: $padding-pixels;
+}
